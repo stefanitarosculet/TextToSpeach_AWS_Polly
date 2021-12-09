@@ -28,6 +28,7 @@ def text_to_speach():
     else:
         convert('en-GB')
 
+# Creating the GUI using Tkinter
 window = Tk()
 window.title("Text to Speach AWS Polly")
 window.config(padx=50, pady=50)
